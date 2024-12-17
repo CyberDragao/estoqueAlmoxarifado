@@ -1,0 +1,11 @@
+{
+    "name": "projeto/almoxarifado",
+    "description": "Projeto que planeja fazer relatorios e monitorar o estoque.",
+    "authors": [
+        {
+            "name": "mateusjairan",
+            "email": "mateusjairan@gmail.com"
+        }
+    ],
+    "require": {}
+}
