@@ -1,4 +1,9 @@
 {
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
     "name": "projeto/almoxarifado",
     "description": "Projeto que planeja fazer relatorios e monitorar o estoque.",
     "authors": [
@@ -9,3 +14,4 @@
     ],
     "require": {}
 }
+
