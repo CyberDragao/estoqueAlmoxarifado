@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema De Estoque</title>
-    <link rel="stylesheet" href="/estoqueAlmoxarifado/public/css/style.css">
+    <link rel="stylesheet" href="/estoqueAlmoxarifado/public/css/login.css">
 </head>
 <body>
 
@@ -31,7 +31,7 @@ $controller->index();
     <h2>Login</h2>
     
     <div class="campoUsuario">
-        <label for="nomeUsuario">Usuario</label>
+        <label for="nomeUsuario">Nome de Usuario</label>
         <input placeholder="Digite o seu nome de usuario:" type="text" name="nomeUsuario" id="nomeUsuarioId">
 
     </div>
