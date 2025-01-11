@@ -5,11 +5,22 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cadastro</title>
-	<link rel="stylesheet" href="/estoqueAlmoxarifado/public/css/cadastro.css">
+	<link rel="stylesheet" href="/estoqueAlmoxarifado/public/css/register.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<h1>Cadastro</h1>
+	<div class="modal">
+		<svg style="background-color: red" ; width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M7.825 13L13.425 18.6L12 20L4 12L12 4L13.425 5.4L7.825 11H20V13H7.825Z" fill="#1D1B20" />
+		</svg>
+
+		<h1 style="background-color: red">Registro</h1>
+	</div>
+
+	<!-- <h1>Cadastro</h1>
 	<main>
 		<h3>Bem vindo.</h3>
 
@@ -54,7 +65,7 @@
 	</main>
 	<footer>
 		<p>Empresa-LTDA</p>
-	</footer>
+	</footer> -->
 </body>
 
 </html>
