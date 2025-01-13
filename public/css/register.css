@@ -138,3 +138,54 @@ img {
 	justify-content:center;
 	align-items: center;
 }
+
+/* Base styles are already mobile-friendly; add specific tweaks for smaller screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Smaller font size for readability */
+    padding: 0;
+  }
+
+  .modal {
+    width: 90%; /* Adjust modal width for smaller screens */
+    margin: 10px auto; /* Center modal */
+    padding: 2%;
+  }
+
+  .modal-header h1 {
+    font-size: 1.5rem; /* Reduce font size of the title */
+    margin-right: 0; /* Remove large margin */
+  }
+
+  .input-group {
+    flex: 1 1 100%; /* Inputs take full width on mobile */
+    gap: 0.3em; /* Slightly reduce spacing */
+  }
+
+  form {
+    flex-wrap: wrap; /* Ensure proper wrapping of inputs */
+    gap: 1.5em; /* Adjust spacing between input groups */
+    margin: 5% 2%; /* Reduce margins */
+  }
+
+  input,
+  select {
+    width: 100%; /* Full width for better usability */
+    padding: 0.8em; /* Adjust padding */
+  }
+
+  .submit-button {
+    width: 100%; /* Full width button */
+    padding: 12px; /* Adjust padding */
+    font-size: 18px; /* Adjust font size */
+  }
+
+  img {
+    width: 200px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .logo {
+    margin-bottom: 10px; /* Add space below the logo */
+  }
+}
