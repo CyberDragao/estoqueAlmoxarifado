@@ -5,27 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema De Estoque</title>
     <link rel="stylesheet" href="/estoqueAlmoxarifado/public/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <?php 
-require_once __DIR__ . '/../vendor/autoload.php';
+// require_once __DIR__ . '/../vendor/autoload.php';
 
-use App\Controllers\HomeController;
+// use App\Controllers\userController;
 
-$controller = new HomeController();
-$controller->index();
+// $controller = new HomeController();
+// $controller->index();
 ?>
 
 
-<header>
-    
-</header>           
+<div class="logo">
+	<img src="../resources/images/logo.png" alt="Logo">
+</div>      
 
 
-<main><h1>
-     Almoxarifado
-    </h1>
+<main>
+
 <form class="formulario" action="">
 
     <h2>Login</h2>
