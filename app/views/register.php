@@ -12,6 +12,7 @@
 </head>
 
 <body>
+	
 	<div class="logo">
 		<img src="../../resources/images/logo.png" alt="Logo">
 	</div>
